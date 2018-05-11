@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Hello...</title>
+<style type="text/css">
+body {
+  font: 300 14px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #eee;
+  margin: 0;
+  padding: 0;
+}
+.tabs {
+  margin: 25px;
+  background: #fff;
+}
+.tabs__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+.tabs__list li {
+  float: left;
+}
+.tabs__list li a {
+  color: #444;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.tabs__content {
+  padding: 10px;
+}
+
+</style>
+</head>
+
+<body>
+<div ng-app="app">
+  <div>
+    <tabs active="1">
+      <tab label="Tab 1">
+        Tab 1 contents!
+       </tab>
+       <tab label="Tab 2">
+        Tab 2 contents!
+       </tab>
+       <tab label="Tab 3">
+        Tab 3 contents!
+       </tab>
+    </tabs>
+  </div>
+</div>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script data-require="angular.js@1.5.5" data-semver="1.5.5" src="https://code.angularjs.org/1.5.5/angular.min.js"></script>
+<script src="https://npmcdn.com/@angular/router@0.2.0/angular1/angular_1_router.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
